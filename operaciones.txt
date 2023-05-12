@@ -1,0 +1,37 @@
+# Operaciones aritméticas
+a = 5
+b = 3
+
+suma = a + b
+resta = a - b
+multiplicacion = a * b
+division = a / b
+modulo = a % b
+exponente = a ** b
+
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
+print("Módulo:", modulo)
+print("Exponente:", exponente)
+
+# Concatenación de cadenas de texto
+nombre = "Juan"
+apellido = "Pérez"
+
+nombre_completo = nombre + " " + apellido
+print("Nombre completo:", nombre_completo)
+
+# Operaciones con listas
+numeros = [1, 2, 3, 4, 5]
+
+longitud = len(numeros)
+suma_elementos = sum(numeros)
+maximo = max(numeros)
+minimo = min(numeros)
+
+print("Longitud:", longitud)
+print("Suma de elementos:", suma_elementos)
+print("Máximo:", maximo)
+print("Mínimo:", minimo)
